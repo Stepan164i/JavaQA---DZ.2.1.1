@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        float Ticketprice = 317700.00f;
-        float pricebonus = 20.00f;
-        float mile = Ticketprice / pricebonus;
+        long Ticketprice = 8900090;
+        int pricebonus = 20;
+        long mile = Ticketprice / pricebonus / 100;
         System.out.println(mile);
     }
 
